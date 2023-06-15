@@ -1,0 +1,72 @@
+
+body{
+    background-color: #9DB2BF;
+}
+.container{
+    display: flex;
+    
+    
+}
+
+.darkMode{
+    background-color: darkslategray;
+    color: aliceblue;
+}
+
+.lightMode{
+    background-color: azure;
+    color: black;
+}
+
+.btn{
+    background-color: #27374D;
+    color: #DDE6ED;
+    border-radius: 2px solid black;
+    width: clamp(60px, 80px, 150px);
+    font-size: 1rem;
+}
+
+.table-heading{
+    background-color: #27374D;
+    color: #DDE6ED;
+    font-size: 1.25rem;
+}
+
+.table-data{
+ background-color: #526D82;   
+ color: #DDE6ED;
+    font-size: 1rem;
+    text-align: center
+}
+
+.form-err{
+    color: red;
+    font-size: small;
+    margin: 0;
+    
+}
+
+.form-container{
+    width:40%;
+    height:90vh;
+    position: relative;
+    left: 10%;
+    top:30%
+}
+.table-container{
+    width:60%;
+    height: 60vh;
+    position: relative;
+        left: 10%;
+}
+
+@media (max-width: 600px) {
+    .container {
+        flex-direction: column;
+    }
+    .form-container{
+        position: relative;
+        left:20%;
+        top: 20%;
+    }
+}
